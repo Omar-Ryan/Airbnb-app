@@ -5,8 +5,8 @@ import NavigationBar from "./NavigationBar";
 
 const Header = () => {
   return (
-    <header>
-      <div className="container sticky top-0 z-50 py-5 shadow-md">
+    <header className=" sticky top-0 z-50 py-5 shadow-md bg-white">
+      <div className="container grid grid-cols-3">
         <Link href={"/"} className="relative flex items-center h-10">
           <Image
             src="https://upload.wikimedia.org/wikipedia/commons/6/69/Airbnb_Logo_B%C3%A9lo.svg"
