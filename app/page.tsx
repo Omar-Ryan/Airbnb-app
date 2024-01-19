@@ -1,5 +1,5 @@
-// import Image from "next/image";
 import Banner from "./components/Banner";
+import LiveAny from "./components/liveAnywhere/LiveAny";
 import Explore from "./components/explore/Explore";
 
 export default function Home() {
@@ -7,6 +7,7 @@ export default function Home() {
     <main>
       <Banner />
       <Explore />
+      <LiveAny />
     </main>
   );
 }

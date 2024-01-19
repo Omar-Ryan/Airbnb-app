@@ -5,7 +5,7 @@ import MainHeading from "../MainHeading";
 
 async function Explore() {
   const exploreData: ExploreData = await getExplore();
-  console.log(exploreData);
+  // console.log(exploreData); //test
   return (
     <section className="pt-6">
       <div className="container">
